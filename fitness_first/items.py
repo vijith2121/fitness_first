@@ -1,4 +1,41 @@
 import scrapy
 
-class Product(scrapy.Item):
-    url = scrapy.Field()
+
+class Storelocation(scrapy.Item):
+    ProviderId = scrapy.Field()
+    Country = scrapy.Field()
+    Provider = scrapy.Field()
+    DateUpdated = scrapy.Field()
+    StoreId = scrapy.Field()
+    Name = scrapy.Field()
+    Street = scrapy.Field()
+    City = scrapy.Field()
+    State = scrapy.Field()
+    ZipCode = scrapy.Field()
+    Phone = scrapy.Field()
+    OpenHours = scrapy.Field()
+    Latitude = scrapy.Field()
+    Longitude = scrapy.Field()
+    Url = scrapy.Field()
+    Extras = scrapy.Field()
+    Status = scrapy.Field()
+
+
+class Storelocation_Others(scrapy.Item):
+    ProviderId = scrapy.Field()
+    Country = scrapy.Field()
+    Provider = scrapy.Field()
+    DateUpdated = scrapy.Field()
+    StoreId = scrapy.Field()
+    Name = scrapy.Field()
+    Street = scrapy.Field()
+    City = scrapy.Field()
+    State = scrapy.Field()
+    ZipCode = scrapy.Field()
+    Phone = scrapy.Field()
+    OpenHours = scrapy.Field()
+    Latitude = scrapy.Field()
+    Longitude = scrapy.Field()
+    Url = scrapy.Field()
+    Extras = scrapy.Field()
+    Status = scrapy.Field()
